@@ -3,4 +3,4 @@
 Support only for Android 12L (DT2S)
 
 Add these line in device.mk or romname_devicename.mk:
->**_$(call inherit-product, vendor/PixelMod/PixelMod.mk)_**
+>**_$(call inherit-product, vendor/PixelMod/PixelLauncher.mk)_**

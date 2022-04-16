@@ -1,6 +1,9 @@
-# Pixel Launcher Mod v6 by TeamFiles
-# [Original post Module](https://t.me/modulesrepo/3166)
-Support only for Android 12L (DT2S)
+# ![Pixel Launcher Mod (Ammit)](https://telegra.ph/file/5d395b129080e060bdfb4.jpg)<br/>
+**Support only for Android 12L/12.1**<br/>
+**Current version: v7.1**<br/>
 
-Add these line in device.mk or romname_devicename.mk:
->**_$(call inherit-product, vendor/PixelMod/PixelMod.mk)_**
+**We have three different versions available, description of the variant in the corresponding branch, read use according to what you need.**<br/>
+
+**Credits:**<br/>
+[Team Files™](https://t.me/modulesrepo)<br/>
+[Magisk module](https://t.me/modulesrepo/3166)<br/>

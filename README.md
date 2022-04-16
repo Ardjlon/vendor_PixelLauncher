@@ -1,6 +1,6 @@
 # ![Pixel Launcher Mod v7.1 (Khonsu)](https://telegra.ph/file/5d395b129080e060bdfb4.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v7.1**<br/>
+**Current version: v7.3**<br/>
 **Variant: Khonsu**<br/>
 
 **What is Khonsu variant?**<br/>

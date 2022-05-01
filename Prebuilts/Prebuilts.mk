@@ -26,6 +26,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # GoogleCamera-Parrot
 PRODUCT_PACKAGES += \
+   Remover \
    PixelThemesStubMod \
    ThemedIconsOverlayMod \
    PixelRecentsProviderMod \

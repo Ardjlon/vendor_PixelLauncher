@@ -1,8 +1,8 @@
-# ![Pixel Launcher Mod (Ammit)](https://telegra.ph/file/5d395b129080e060bdfb4.jpg)<br/>
+# ![Pixel Launcher Mod (Ammit)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v7.3**<br/>
+**Current version: v8.4**<br/>
 
-**We have three different versions available, description of the variant in the corresponding branch, read use according to what you need.**<br/>
+**We have four variants available, check variants description per branch, use according to what you need.**<br/>
 
 **Credits:**<br/>
 [Team Files™](https://t.me/modulesrepo)<br/>

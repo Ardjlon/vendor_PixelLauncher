@@ -36,9 +36,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
 		<permission name="android.permission.REQUEST_DELETE_PACKAGES"/>
 		<permission name="android.permission.READ_DEVICE_CONFIG"/>
 		<permission name="android.permission.ROTATE_SURFACE_FLINGER"/>
-		<permission name="android.permission.DEVICE_POWER"/>
-		<permission name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
-		<permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
 		<permission name="com.google.android.apps.nexuslauncher.permission.QSB"/>
 		<permission name="com.google.android.launcher.permission.READ_SETTINGS"/>
 		<permission name="com.google.android.apps.miphone.aiai.matchmaker.overview.service.BIND_SERVICE"/>

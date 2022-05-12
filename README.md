@@ -1,6 +1,6 @@
-# ![Pixel Launcher Mod (Horus)](https://telegra.ph/file/5d395b129080e060bdfb4.jpg)<br/>
+# ![Pixel Launcher Mod (Horus)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v7.3**<br/>
+**Current version: v8.4**<br/>
 **Variant: Horus**<br/>
 
 **What is Horus variant?**<br/>

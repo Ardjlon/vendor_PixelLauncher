@@ -1,6 +1,6 @@
 # ![Pixel Launcher Mod (Ammit)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v8.4**<br/>
+**Current version: v8.5**<br/>
 **Variant: Ammit**<br/>
 
 **What is Ammit variant?**<br/>

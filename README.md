@@ -1,6 +1,6 @@
-# ![Pixel Launcher Mod v8.4 (Khonsu)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
+# ![Pixel Launcher Mod (Khonsu)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v8.4**<br/>
+**Current version: v8.5**<br/>
 **Variant: Khonsu**<br/>
 
 **What is Khonsu variant?**<br/>

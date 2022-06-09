@@ -1,7 +1,8 @@
-# ![Pixel Launcher Mod (Khonsu)](https://telegra.ph/file/60acc6c2d2dc4b2d4ae1f.jpg)<br/>
+# ![Pixel Launcher Mod (Khonsu)](https://telegra.ph/file/3a0555c9fbe41c75aa95d.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v8.5**<br/>
+**Current version: v9.3**<br/>
 **Variant: Khonsu**<br/>
+**Changelog: [Click here](https://telegra.ph/Changelog-Of-Pixel-Launcher-MOD-05-28)**
 
 **What is Khonsu variant?**<br/>
 -&nbsp;It consists all the mod features mentioned in [documentation](https://telegra.ph/Pixel-Launcher-MOD-Features-Version-Details-Instructions--Troubleshooting-02-07) with Seamless Double Tap To Sleep. On this variant double tap to sleep feature will work as soon as you enable it from settings.

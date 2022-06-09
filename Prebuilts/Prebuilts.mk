@@ -16,9 +16,8 @@
 
 # Copy permission files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/priv-app/PixelLauncherMods/lib/arm64,$(TARGET_COPY_OUT_PRODUCT)/priv-app/PixelLauncherMods/lib/arm64)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/system_ext/etc,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/system_ext/priv-app/QuickAccessWallet/oat/arm64,$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QuickAccessWallet/oat/arm64)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/system_ext/priv-app/WallpaperPickerGoogleRelease/oat/arm64,$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperPickerGoogleRelease/oat/arm64)
 
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \
@@ -26,10 +25,12 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # GoogleCamera-Parrot
 PRODUCT_PACKAGES += \
-   Remover \
-   PixelThemesStubMod \
-   ThemedIconsOverlayMod \
-   PixelRecentsProviderMod \
    NexusLauncherReleaseMod \
+   PixelLauncherMods \
+   PixelLauncherModsOverlay \
+   PixelRecentsProviderMod \
+   PixelThemesStubMod \
    QuickAccessWalletMod \
+   Remover \
+   ThemedIconsOverlayMod \
    WallpaperPickerGoogleReleaseMod

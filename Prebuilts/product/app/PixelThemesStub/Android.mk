@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := PixelThemesStubMod
 LOCAL_MODULE_STEM := PixelThemesStub.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := PixelThemesStub.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

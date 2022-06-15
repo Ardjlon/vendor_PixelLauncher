@@ -28,6 +28,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := NexusLauncherReleaseMod
 LOCAL_MODULE_STEM := NexusLauncherRelease.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := NexusLauncherRelease.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

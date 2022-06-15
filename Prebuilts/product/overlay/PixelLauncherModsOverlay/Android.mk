@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := PixelLauncherModsOverlay
 LOCAL_MODULE_STEM := PixelLauncherModsOverlay.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := PixelLauncherModsOverlay.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

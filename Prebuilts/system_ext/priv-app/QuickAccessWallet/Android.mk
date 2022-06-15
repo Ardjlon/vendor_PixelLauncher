@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := QuickAccessWalletMod
 LOCAL_MODULE_STEM := QuickAccessWallet.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := QuickAccessWallet.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

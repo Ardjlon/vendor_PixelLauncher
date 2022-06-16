@@ -2,7 +2,6 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := PixelLauncherMods
-LOCAL_MODULE_STEM := PixelLauncherMods.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := PixelLauncherMods.apk
 LOCAL_MODULE_TAGS := optional

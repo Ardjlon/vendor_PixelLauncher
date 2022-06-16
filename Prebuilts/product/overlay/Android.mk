@@ -7,7 +7,7 @@ LOCAL_MODULE := ThemedIconsOverlayMod
 LOCAL_MODULE_STEM := ThemedIconsOverlay.apk
 LOCAL_SRC_FILES := ThemedIconsOverlay.apk
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay/ThemedIconsOverlay.apk
 
 include $(BUILD_PREBUILT)

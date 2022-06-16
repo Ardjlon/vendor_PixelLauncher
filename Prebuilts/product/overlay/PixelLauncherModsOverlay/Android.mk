@@ -6,6 +6,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := PixelLauncherModsOverlay.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay/PixelLauncherModsOverlay
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
 
 include $(BUILD_PREBUILT)

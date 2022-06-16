@@ -7,7 +7,7 @@ LOCAL_SRC_FILES := PixelRecentsProvider.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_OVERRIDES_PACKAGES := PixelLauncherOverlay
-LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay/PixelRecentsProvider
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
 LOCAL_DEX_PREOPT := false
 
 include $(BUILD_PREBUILT)

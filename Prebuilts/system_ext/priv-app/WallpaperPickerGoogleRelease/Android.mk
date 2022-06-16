@@ -6,5 +6,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := WallpaperPickerGoogleRelease.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := $(TARGET_OUT_SYSTEM_EXT)/priv-app/WallpaperPickerGoogleRelease
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_SYSTEM_EXT_MODULE := true
+LOCAL_OVERRIDES_PACKAGES := WallpaperPickerGoogleRelease
 include $(BUILD_PREBUILT)

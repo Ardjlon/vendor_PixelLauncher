@@ -8,7 +8,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := ThemedIconsOverlay.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay/ThemedIconsOverlay.apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
 LOCAL_DEX_PREOPT := false
 
 include $(BUILD_PREBUILT)

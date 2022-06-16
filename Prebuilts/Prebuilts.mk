@@ -25,6 +25,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # GoogleCamera-Parrot
 PRODUCT_PACKAGES += \
+   IconsOverlayRemover \
    NexusLauncherReleaseMod \
    PixelLauncherMods \
    PixelLauncherModsOverlay \

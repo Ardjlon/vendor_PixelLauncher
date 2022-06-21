@@ -1,6 +1,6 @@
-# ![Pixel Launcher Mod (Taweret)](https://telegra.ph/file/3a0555c9fbe41c75aa95d.jpg)<br/>
+# ![Pixel Launcher Mod (Taweret)](https://telegra.ph/file/c54fbbf51b9191b499eaf.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v9.3**<br/>
+**Current version: v9.5**<br/>
 **Variant: Taweret**<br/>
 **Changelog: [Click here](https://telegra.ph/Changelog-Of-Pixel-Launcher-MOD-05-28)**
 

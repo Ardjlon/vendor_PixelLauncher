@@ -1,6 +1,6 @@
 # ![Pixel Launcher Mod (Horus)](https://telegra.ph/file/c54fbbf51b9191b499eaf.jpg)<br/>
 **Support only for Android 12L/12.1**<br/>
-**Current version: v9.5**<br/>
+**Current version: v9.6**<br/>
 **Variant: Horus**<br/>
 **Changelog: [Click here](https://telegra.ph/Changelog-Of-Pixel-Launcher-MOD-05-28)**
 

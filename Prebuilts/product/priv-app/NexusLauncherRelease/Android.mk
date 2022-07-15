@@ -27,10 +27,11 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := NexusLauncherReleaseMod
-LOCAL_MODULE_STEM := NexusLauncherRelease.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := NexusLauncherRelease.apk
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/priv-app/NexusLauncherRelease
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
 
 include $(BUILD_PREBUILT)

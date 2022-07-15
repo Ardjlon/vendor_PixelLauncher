@@ -15,7 +15,7 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
-
+RELAX_USES_LIBRARY_CHECK := true
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Include prebuilts packages

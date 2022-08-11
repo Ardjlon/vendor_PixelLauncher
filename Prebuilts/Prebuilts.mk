@@ -15,7 +15,17 @@
 # limitations under the License.
 
 # Copy permission files
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc/default-permissions,$(TARGET_COPY_OUT_PRODUCT)/etc/default_permissions)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc/permissions,$(TARGET_COPY_OUT_PRODUCT)/etc/permissions)
+
+ifeq ($(filter $(modules-get-list),$(preferred_apps_google)),)
+PRODUCT_COPY_FILES += \
+    vendor/PixelLauncher/Prebuilts/product/etc/sysconfig/pixel-launcher-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel-launcher-hiddenapi-package-whitelist.xml
+    $(warning Excluding some permissions because exists)
+else
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc/preferred-apps,$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc/sysconfig,$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig)
+endif
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/system_ext/etc,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc)
 
 # Properties

@@ -15,7 +15,6 @@
 # limitations under the License.
 
 # Copy permission files
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/bin,$(TARGET_COPY_OUT_SYSTEM)/bin)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/product/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/PixelLauncher/Prebuilts/system_ext/etc,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc)
 
@@ -33,6 +32,9 @@ PRODUCT_PACKAGES += \
    ThemedIconsOverlay \
    WallpaperPickerGoogleReleaseMod
 
-# Init service
+ifeq ($(AOSP_ENHANCER),true)
+# AOSP enhancer
 PRODUCT_PACKAGES += \
-    init.launcher-enhancer.rc
+   aosp_enhancer \
+   init.aosp_enhancer.rc
+endif

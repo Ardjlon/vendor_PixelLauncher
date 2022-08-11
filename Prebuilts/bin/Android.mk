@@ -1,4 +1,4 @@
-#
+
 # Copyright (C) 2022 Ardjlon
 # Copyright (C) 2022 Team Files
 #
@@ -17,9 +17,17 @@
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := init.aosp_enhancer.rc
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := etc/init.aosp_enhancer.rc
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)/init
+LOCAL_MODULE := aosp_enhancer
+LOCAL_MODULE_TAGS := optional
+ifeq ($(TARGET_ARCH),arm64)
+LOCAL_SRC_FILES := aosp_enhancer64
+else ifeq ($(TARGET_ARCH),arm)
+LOCAL_SRC_FILES := aosp_enhancer32
+else
+$(error Not found value for TARGET_ARCH, You need set in BoardConfig.mk into device tree)
+endif
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_CHECK_ELF_FILES := false
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/system/bin
+LOCAL_POST_INSTALL_CMD := chmod 0755 $(LOCAL_MODULE_PATH)/$(LOCAL_MODULE)
 include $(BUILD_PREBUILT)

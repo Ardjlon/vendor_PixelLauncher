@@ -1,3 +1,0 @@
-on property:sys.boot_completed=1
-    chown system system /system/bin/launcher-enhancer
-    chmod 0777 /system/bin/launcher-enhancer

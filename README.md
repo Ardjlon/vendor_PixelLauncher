@@ -4,7 +4,7 @@
 **Changelog: [Click here](https://telegra.ph/Changelog-Of-Pixel-Launcher-MoOD-07-07)**
 
 
-**We have four variants available, check [documentation](https://telegra.ph/Pixel-Launcher-MOD-Features-Version-Details-Instructions--Troubleshooting-02-07) for more info about variants.**<br/>
+**We have four variants available, check [documentation](https://docs.google.com/document/d/1F8Ro0OyVr9CIkPQ2BOJASTlb88OpghnQJG4H0rip5yg/edit#heading=h.5axx1dauoj53) for more info about variants.**<br/>
 
 Add these lines in device.mk or romname_devicename.mk:
 >**_$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)_**

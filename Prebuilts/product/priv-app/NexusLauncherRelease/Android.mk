@@ -21,7 +21,7 @@ LOCAL_MODULE := NexusLauncherReleaseMod
 LOCAL_MODULE_TAGS := optional
 ifeq ($(PIXEL_LAUNCHER_VARIANT),ammit)
 LOCAL_SRC_FILES := Ammit.apk
-else ifeq ($(PIXEL_LAUNCHER_VARIANT),hours)
+else ifeq ($(PIXEL_LAUNCHER_VARIANT),horus)
 LOCAL_SRC_FILES := Horus.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),khonsu)
 LOCAL_SRC_FILES := Khonsu.apk

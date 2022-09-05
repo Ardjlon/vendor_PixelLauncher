@@ -20,13 +20,13 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
 LOCAL_MODULE_TAGS := optional
 ifeq ($(PIXEL_LAUNCHER_VARIANT),ammit)
-LOCAL_SRC_FILES := Ammit.apk
+LOCAL_SRC_FILES := AmmitM.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),horus)
-LOCAL_SRC_FILES := Horus.apk
+LOCAL_SRC_FILES := HorusM.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),khonsu)
-LOCAL_SRC_FILES := Khonsu.apk
+LOCAL_SRC_FILES := KhonsuM.apk
 else ifeq ($(PIXEL_LAUNCHER_VARIANT),tawaret)
-LOCAL_SRC_FILES := Tawaret.apk
+LOCAL_SRC_FILES := TawaretM.apk
 else
 $(error Not set PIXEL_LAUNCHER_VARIANT, read more in vendor/PixelLauncher/REAMDE.md)
 endif
